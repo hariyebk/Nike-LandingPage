@@ -2,7 +2,7 @@ import { star } from "../assets/icons"
 import {PopularProductsProps} from "../sections/PopularProducts"
 export default function PopularProductCard ({imgURL, price, name, rating}: PopularProductsProps) {
     return (
-        <div className="flex flex-1 flex-col w-full">
+        <div className="flex flex-1 flex-col w-full max-sm:items-center">
             <img src={imgURL} alt= {name}className="w-[280px] h-[280px]"/>
             <div className="mt-8 flex flex-col justify-start gap-2.5">
                 <div className="flex gap-3">
