@@ -9,6 +9,7 @@ import support from './support.svg'
 import shieldTick from './shield-tick.svg'
 import star from './star.svg'
 import truckFast from './truck-fast.svg'
+import cancel from "./cancel.png"
 import twitter from './twitter.svg'
 
 export {
@@ -20,6 +21,7 @@ export {
     hamburger,
     instagram,
     support,
+    cancel,
     shieldTick,
     star,
     truckFast,
