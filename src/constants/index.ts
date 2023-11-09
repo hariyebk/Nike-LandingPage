@@ -5,6 +5,7 @@ export const navLinks = [
     { href: "#home", label: "Home" },
     { href: "#about-us", label: "About Us" },
     { href: "#products", label: "Products" },
+    { href: "#services", label: "Services"},
     { href: "#contact-us", label: "Contact Us" },
 ];
 
@@ -70,7 +71,7 @@ export const services = [
     {
         imgURL: support,
         label: "Love to help you",
-        subtext: "Our dedicated team is here to assist you every step of the way."
+        subtext: "Our dedicated team is here to assist you every step of the way feel free to contact us."
     },
 ];
 
