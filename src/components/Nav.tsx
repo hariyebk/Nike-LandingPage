@@ -32,7 +32,7 @@ export default function Nav() {
                             <ul className="flex flex-1 flex-col justify-center items-center gap-6 px-10">
                                 {navLinks.map((link: NavLink): React.ReactNode => {
                                     return (
-                                        <li key={link.href}> <a href= {link.href} className="font-montserrat leading-normal text-lg text-slate-gray"> {link.label} </a></li>
+                                        <li key={link.href}> <a href= {link.href} onClick={() => setIsHamburgerOpened(false)} className="font-montserrat leading-normal text-lg text-slate-gray"> {link.label} </a></li>
                                     )
                                 })}
                             </ul>
